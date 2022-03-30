@@ -1,8 +1,9 @@
-import pdb
+import pdb # Модуль pdb определяет интерактивный отладчик исходного кода для программ Python
 
-questions = {}
+questions = {} # Создание словаря
 
 mail = 'ADRESS'
 text = 'QUEST'
-questions[mail] = text
-pdb.set_trace()
+questions[mail] = text # Обращение к словарю методом "ключ-значение"
+
+pdb.set_trace() # Отладчик
