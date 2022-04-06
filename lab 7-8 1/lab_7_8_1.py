@@ -8,4 +8,4 @@ mail = 'ADRESS'
 text = 'QUEST'
 questions[mail] = text # Обращение к словарю методом "ключ-значение"
 
-pdb.set_trace() # Отладчи
+pdb.set_trace() # Отладч
